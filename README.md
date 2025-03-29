@@ -58,6 +58,41 @@ SteganoVault is a secure file-sharing tool that combines **Cryptography** and **
 ```bash
  python Eclipsa.py
 ```
+## NOTE 
+Those other files you see...
+- Server.py
+- Client.py
+- Steganography.py
+- Encryption.py 
+- Tool.py
+   
+These are for `Terminal/Command line` use only so if you have these in a folder and navigate it through terminal and here are some examples for it all 
+
+1.Encrypt a file:
+
+`Example:`
+```bash
+python tool.py encrypt --file myfile.txt --password mypassword123 --output encrypted_file.txt
+```
+2.Decrypt a file:
+
+`Example:`
+```bash
+python tool.py decrypt --file encrypted_file.txt --password mypassword123 --output decrypted_file.txt
+```
+3.Embed a file into an image:
+
+`Example:`
+```bash
+python tool.py embed --image cover_image.png --file secret.txt --output image_with_secret.png
+```
+4.Extract a file into an image:
+
+`Example:`
+```bash
+python tool.py extract --image image_with_secret.png --output extracted_file.txt       
+```
+
 
 ## License
 This project is licensed under the MIT License.
