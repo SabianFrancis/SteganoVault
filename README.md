@@ -11,7 +11,7 @@ SteganoVault is a secure file-sharing tool that combines **Cryptography** and **
 ## How to Use
 
 ### Running the Application
-1. **Download the .exe file** from the [Releases](link-to-release) section.
+1. **Download the .exe file** from the [Releases](https://github.com/SabianFrancis/SteganoVault/releases) section.
 2. Double-click the `.exe` file to launch the application.
 
 ### Encrypting a File
