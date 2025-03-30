@@ -10,7 +10,7 @@ import threading
 
 # Main GUI setup
 root = tk.Tk()
-root.title("Secure File Sharing")
+root.title("SteganoVault")
 root.geometry("800x600")
 root.resizable(True, True)
 root.configure(bg="#1a1a2e")  # Dark Sci-Fi theme background
