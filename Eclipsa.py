@@ -10,7 +10,7 @@ import threading
 
 # Main GUI setup
 root = tk.Tk()
-root.title("Secure File Sharing")
+root.title("SteganoVault")
 root.geometry("800x600")
 root.resizable(True, True)
 root.configure(bg="#1a1a2e")  # Dark Sci-Fi theme background
@@ -22,7 +22,7 @@ if not os.path.exists("received"):
 # Heading
 title_label = tk.Label(
     root,
-    text="Secure File Sharing",
+    text="SteganoVault",
     font=("Helvetica", 24, "bold"),
     fg="#e94560",
     bg="#1a1a2e"
